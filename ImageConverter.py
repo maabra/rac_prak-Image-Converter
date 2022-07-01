@@ -259,7 +259,7 @@ class Application(Frame):
 
     def previewIMG(self):  # prikazuje sve prilagodene slike
         self.adjustment(self.selectedIMGs)
-        for image in self.preConvertIGs.values():
+        for image in self.preConvertIMGs.values():
             image.show()
 
     def convertJPG(self):  # funkcija pretvaranja u .jpg
